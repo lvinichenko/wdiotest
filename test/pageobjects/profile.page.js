@@ -7,7 +7,6 @@ class ProfilePage extends Page {
         expect(browser).toHaveUrlContaining('/profile/');
         expect(this.iconUser).toBeDisplayed();
     }
-
 }
 
 export default new ProfilePage();
